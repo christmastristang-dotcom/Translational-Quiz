@@ -255,22 +255,22 @@ const questions = [
         id: 22,
         question_text: "Which animal model has a fully publicly available genome?",
         options: {
-            A: "Mouse",
-            B: "Rat",
-            C: "Zebrafish (Danio rerio)",
-            D: "Rabbit"
+            A: "Mus sp.",
+            B: "Rattus sp.",
+            C: "Danio rerio",
+            D: "Oryctolagus cuniculus"
         },
         correct_answer: "C",
-        explanation: "The zebrafish genome is fully sequenced and publicly available."
+        explanation: "The zebrafish(Danio rerio) genome is fully sequenced and publicly available."
     },
     {
         id: 23,
         question_text: "Which animal is nocturnal and commonly genetically modified?",
         options: {
-            A: "Rat",
-            B: "Mouse (Mus sp.)",
-            C: "Sheep",
-            D: "Rabbit"
+            A: "Rattus sp.",
+            B: "Mus sp.",
+            C: "Ovis orientalis aries",
+            D: "Oryctolagus cuniculus"
         },
         correct_answer: "B",
         explanation: "Mice are nocturnal rodents and the most widely used genetically modified models."
@@ -279,17 +279,17 @@ const questions = [
         id: 24,
         question_text: "Sprague Dawley and Wistar are strains of:",
         options: {
-            A: "Mouse",
-            B: "Rat",
-            C: "Pig",
-            D: "Rabbit"
+            A: "Mus sp.",
+            B: "Rattus sp.",
+            C: "sus scrofa forma domesticus",
+            D: "Oryctolagus cuniculus"
         },
         correct_answer: "B",
         explanation: "Sprague Dawley and Wistar are common rat strains."
     },
     {
         id: 25,
-        question_text: "Rabbits (Oryctolagus cuniculus) are especially used for:",
+        question_text: "Oryctolagus cuniculus are especially used for:",
         options: {
             A: "Cardiac device implantation",
             B: "Serum collection and immunology",
@@ -359,4 +359,5 @@ const questions = [
         correct_answer: "C",
         explanation: "About 90% of humans show right coronary dominance."
     }
+
 ];
